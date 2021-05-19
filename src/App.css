@@ -1,0 +1,20 @@
+body{
+background-color:rosybrown;
+}
+.App {
+  text-align: center;
+  margin: 30px;
+  
+}
+
+.profile{
+
+  padding: 50px;
+  border: solid;
+  border-radius: 50px;
+}
+.btn{
+  background-color:sandybrown;
+  font-size: larger;
+  font-weight: bolder;
+}
