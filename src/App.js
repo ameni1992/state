@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import "./App.css";
-import Timer from './Timer';
+import Counter from './Counter';
 export default class App extends Component {
 
   constructor(props) {
@@ -29,9 +29,9 @@ export default class App extends Component {
         ): null}
         
         <button className="btn" onClick={this.toggle}>Click Here</button>
-        <Timer/>
+      <Counter/>
       </div>
     )
-  }
+  };
   }
 
